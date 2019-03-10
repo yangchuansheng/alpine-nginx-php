@@ -20,9 +20,9 @@ RUN \
 
   # download unpack php-src
   && mkdir /tmp/php && cd /tmp/php \
-  && wget https://github.com/php/php-src/archive/php-7.1.5.tar.gz \
-  && tar xzf php-7.1.5.tar.gz \
-  && cd php-src-php-7.1.5 \
+  && wget https://github.com/php/php-src/archive/php-7.1.8.tar.gz \
+  && tar xzf php-7.1.8.tar.gz \
+  && cd php-src-php-7.1.8 \
 
   #compile
   && ./buildconf --force \
